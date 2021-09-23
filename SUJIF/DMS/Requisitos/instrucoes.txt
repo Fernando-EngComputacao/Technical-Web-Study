@@ -1,0 +1,2 @@
+Pasta para os templates de requisito
+Formato do arquivo: Requisito-XX-Nome_do_requisito --> um arquivo para cada requisito, o template utilizado é o "Definição de Requisitos"

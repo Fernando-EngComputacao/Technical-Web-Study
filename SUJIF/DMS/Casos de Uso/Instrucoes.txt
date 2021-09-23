@@ -1,0 +1,4 @@
+Pasta destinadas aos documentos referentes sos casos de uso
+Devendo ser colocado nessa pasta o arquivo do template de 
+"Priorização de Caso de Usos" e uma pasta para cada Caso de uso Seguindo o modelo da Pasta "XX-Caso de Uso",
+sendo que o XX deve ser subistituido pelo número de cada Caso de Uso. Ex 01

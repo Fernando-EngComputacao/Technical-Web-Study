@@ -1,0 +1,1 @@
+Nessas pasta  deverão ser colocadas as imagens foram utilizadas no desenvolvimento dos  documentos de requisito, isso se faz necessário par que as imagens que não forem visualizadas corretamente no ducmento possam ser avaliadas melhor.(referenciar no nome da imagem o requisito que ela pertence.

@@ -1,0 +1,3 @@
+Nessa pasta iram os arquivos fontes do projeto.
+Colocar um arquivo readme.txt onde vai constar quais os softwares necessários para colocar o software em execução no modo de desenvolvimento.
+Nessa pasta você ira adicionar o seu workspace da IDE utilizada.

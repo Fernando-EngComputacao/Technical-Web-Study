@@ -1,0 +1,9 @@
+Nessa pasta serão colocados os arquivos referente as Atas e Pautas.
+Devendo seguir o formato:
+XX-Pauta_assunto.[odt|doc|docx|pdf]
+XX-Ata_assunto.[odt|doc|docx|pdf]
+
+
+Sendo que XX é o número da Pauta e da Ata. Ex.: 01
+01-Pauta_definições.docx
+01-Ata_definição_de_tema.docx

@@ -1,0 +1,11 @@
+Nessa pasta deve ser colocados os relatórios de acompahamento devendo seguir o padrão:
+relatorio_acompanhamento_XX_DD_MM_a_DD_MM_AAAA
+
+Onde:
+XX -- Número sequêncial do relatório, ex: 01
+DD --> dia
+MM --> mês
+AAAA --> Ano
+
+ex.:
+relatorio_acompanhamento_01_26_02_a_03_03.doc

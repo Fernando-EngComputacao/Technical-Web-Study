@@ -1,0 +1,5 @@
+Nessa pasta deve ser colocados os scripts de criação do banco de dados, 
+ou backups para serem utilizados na criação do banco de dados.
+Nessa pasta também deve conter um arquivo 
+leia-me.txt que deve conter instruções sobre usuário e senha utilizados por padrão no sistema 
+e os procedimentos necessários para a carga do banco de dados.

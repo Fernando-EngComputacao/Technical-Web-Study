@@ -1,0 +1,705 @@
+/* css */
+
+@font-face {
+    font-family: 'Roboto';
+     src: url('../_fontes/Roboto/Roboto-Regular.ttf');
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#cpf{
+    display: none;
+}
+
+#error{
+    text-align: center;
+    color: white;
+    padding: 10px;
+    background-color: rgb(228, 60, 60);
+    margin: 10px;
+    transition: 0.5s;
+}
+
+span#login_container {
+    margin-bottom: 10px;
+}
+
+#login_container .logo {
+    width: 40%;
+}
+
+#login_container {
+    text-align: center;
+    font: 20px arial;
+    position:absolute;
+	left:50%;
+	top:50%;
+    padding: 2%;
+	margin-left:-250px;
+	margin-top:-300px;
+    width: 500px;
+    border: thin solid grey;
+    border-radius: 50px;
+    background: white;
+    transition: 0.5s;
+}
+
+#login_container input {
+    padding: 15px;
+    border: thin solid grey;
+    border-radius: 7px;
+    width: 70%;
+    font: 20px arial;
+}
+
+#login_container input[type="radio"] {
+    width: 10%;
+}
+
+#login_container .esq_senha {
+    font-size: 20px;
+    color: green;
+}
+
+.logo {
+    width: 15%;
+}
+
+.center {
+    text-align: center;
+}
+
+.sair {
+    margin-top: 8%;
+    font-size: 20px;
+    /* width: 20%; */
+    background-color: white;
+    border-style: solid;
+    border-color: #227F53;
+    color: #227F53;
+    font-weight: bold;
+    font-style: italic;
+    padding: 10px;
+    border-radius: 7px;
+}
+
+.btn_menu {
+    margin-top: 8%;
+    width: 50px;
+}
+
+.mainnav {
+    background: #127547;
+}
+
+.mainnav img {
+    width: 150px;
+}
+
+li.mainnav {
+    float: left;
+}
+
+.sidenav {
+    font-size: 20px;
+    /* margin-top: -1px; */
+    margin-left: -7px;
+    background-color: white;
+    width: 0px;
+    box-shadow: 3px 3px 5px lightgrey;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.sidenav ul {
+    /* width: 100%; */
+    margin-left: -25px;
+    /* margin-right: 10px; */
+    font-size: 20px;
+    list-style-type: none;
+    overflow: hidden;
+}
+
+
+i {
+    color: grey;
+}
+
+.sidenav a {
+    margin-left: 5px;
+    color: #227F53;
+    text-decoration: none;
+}
+
+.sidenav li {
+    border-width: thin;
+    border-bottom-style: solid;
+    border-color: lightgrey;
+    padding: 15px;
+}
+
+.child {
+    /* background-color: black; */
+    /* display: none; */
+    height: 0px;
+}
+
+ul.child {
+    box-shadow: 0px 0px 5px black inset;
+    width: 120%;
+    margin-right: 0px;
+    /* margin-left: 15px; */
+    /* border-bottom-color: white; */
+    /* border-width: thin; */
+    font-size: 17.5px;
+    list-style-type: circle;
+    /* color: grey; */
+    background-color: #EEE;
+}
+
+.child a {
+    color: black;
+}
+
+.child li {
+    margin-left: 25px;
+    border-bottom-style: none;
+}
+
+.header {
+    height: 150px;
+    /* margin-left: -7px; */
+    background-color: #127547;
+    padding: 10px;
+    /* text-align: center; */
+    box-shadow: 0px 3px 5px lightgrey;
+}
+
+
+
+/* .btn_menu {
+    margin-top: 20px;
+    margin-left: 50px;
+} */
+
+
+/* .logo {
+    margin-right: -50px;
+} */
+
+.professor {
+    float: left;
+    margin-top: 5px;
+    color: darkblue;
+    font-size: 20px;
+    /* border-radius: 5px; */
+    padding: 10px;
+    text-decoration: none;
+    /* color: darkgreen; */
+    /* border: solid thin lightgrey; */
+}
+
+/* h3.cab {
+    font-size: 30px;
+    margin-bottom: -5px;
+    margin-top: 5px;
+} */
+
+#professores h3 {
+    border-bottom-style: solid;
+    border-color: lightgrey;
+    border-width: thin;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+h2 {
+    font-weight: 100;
+}
+
+
+.avaliar {
+    color: #b2b200;
+}
+
+.aceito {
+    color: darkgreen;
+}
+
+.warning {
+    width: 100%;
+    padding: 20px;
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+}
+
+.negado {
+    color: darkred;
+}
+
+.avl_professores input[type="text"] {
+    padding: 5px;
+    font-size: 15px;
+}
+
+.avl_professores button {
+    font-size: 15px;
+    padding: 5px;
+}
+
+.avl_professores select {
+    font-size: 15px;
+    padding: 5px;
+}
+
+.informacoes_professor ul{
+    list-style-type: none;
+}
+
+.informacoes_professor li {
+    padding: 10px;
+}
+
+.informacoes_professor li:nth-child(even) {background: #FFF}
+.informacoes_professor li:nth-child(odd) {background: #EEE}
+
+.acng {
+    width: 100%;
+    text-align: center;
+}
+
+
+input[type="submit"] {
+    padding: 10px;
+    font-size: 25px;
+    border-radius: 5px;
+    border-style: solid;
+}
+
+.negar {
+    color: red;
+}
+
+.aprovar {
+    color: darkgreen;
+}
+
+.cad_adm {
+    background-color: white;
+    /* border: solid medium #127547; */
+    padding: 10px;
+    border-radius: 10px;
+    color: #127547;
+    margin-bottom: auto;
+    transition: 0.1s;
+    position: absolute;
+    padding-top: -5px;
+}
+
+h2 {
+    margin-left: auto;
+    margin-right:auto;
+}
+
+.icon {
+    width: 60px;
+}
+
+.pesquisa input[type="text"] {
+    border: solid thin lightgrey;
+    border-radius: 5px;
+    width: 25%;
+    padding: 10px;
+    font-size: 20px;
+    background-color: white;
+}
+
+.pesquisa button {
+    width: 10%;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.pesquisa table {
+    width: 100%;
+    font-size: 18px;
+}
+
+.pesquisa tr {
+    text-align: center;
+}
+
+.pesquisa td {
+    /* border-radius: 5px; */
+    /* border: solid thin grey; */
+    padding: 10px;
+}
+
+.titulo {
+    border-top: solid thin lightgrey;
+
+}
+
+.titulo, .titulo td {
+    border-bottom: solid thin lightgrey;
+    background: white;
+    color: black;
+}
+
+.titulo td {
+    font-weight: bold;
+
+}
+
+.msg {
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    /* width: 40%; */
+    background-color: #D8CA00;
+    padding: 10px;
+}
+
+.pesquisa tr:nth-child(even) {background: #EEE}
+.pesquisa tr:nth-child(odd) {background: #FFF}
+
+.formulario span {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.formulario input[type="text"], input[type="password"], input[type="number"], input[type="date"], select {
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    border: solid thin lightgrey;
+    border-radius: 5px;
+}
+
+.formulario select, input[type="number"], input[type="date"] {
+    width: 20%;
+}
+
+.formulario textarea {
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    font-size: 20px;
+    height: 250px;
+    background-color: white;
+    border: solid thin lightgrey;
+    border-radius: 10px;
+    resize: none;
+}
+
+.til {
+    position: absolute;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pesq input, select {
+    width: 20%;
+}
+
+/* #pesq {
+    width: 20%;
+} */
+
+#pesq_campus {
+    width: 20%;
+}
+
+.pesq input[type="text"], button {
+    border-radius: 5px;
+    border: solid thin lightgrey;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.pesq table {
+    text-align: center;
+    width: 100%;
+}
+
+.pesq td {
+    padding: 5px;
+    font-size: 19px;
+    /* border: solid thin lightgrey; */
+}
+
+.pesq img, .pesquisa img {
+    width: 50px;
+    padding: 5px;
+}
+
+.pesq tr:nth-child(even) {background: #EEE}
+.pesq tr:nth-child(odd) {background: #FFF}
+
+#oprofessor {
+    width: 20%;
+}
+
+.progress {
+    width: 30%;
+    float: left;
+}
+
+.forca {
+    margin-right: 10px;
+    float: left;
+    font-size: 15px;
+}
+
+.informacoes table, tr{
+    border: none;
+}
+
+.informacoes td {
+    border: solid thin grey;
+    padding: 10px;
+}
+
+.modalidades table, tr, td{
+    text-align: center;
+    border: none;
+}
+
+.dados td {
+    padding: 10px;
+}
+
+.dados table {
+    width: 100%;
+}
+
+.dados tr:nth-child(even) {background: #FFF}
+.dados tr:nth-child(odd) {background: #EEE}
+
+
+.dados_modalidade tr:nth-child(even) {background: #FFF}
+.dados_modalidade tr:nth-child(odd) {background: #EEE}
+
+.dados_modalidade td {
+    padding: 5px;
+}
+
+.dados_modalidade table {
+    width: 100%;
+}
+
+.dados_modalidade table {
+    font-size: 18px;
+}
+
+.dados_modalidade img {
+    padding: 10px;
+}
+
+.dados ul {
+    list-style-type: none;
+}
+
+.img_cad {
+    width: 40%;
+}
+
+.opcoes a {
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.opcoes img {
+    padding: 5px;
+    width: 50px;
+}
+
+.ex {
+    width: 20px;
+    background-color: #127547;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+.desc_funcao {
+    position: absolute;
+    margin-left: 200px;
+}
+
+.funcoes {
+    /* position: absolute; */
+    float: left;
+    margin-left: 5%;
+    /* background-color: black; */
+}
+
+.funcao {
+    font-size: 90%;
+    width: 330px;
+    border-radius: 10px;
+    padding: 10px 10px 5px 10px;
+    margin-top: 10px;
+    border: solid thin grey;
+}
+
+.funcao a {
+    color: #127547;
+}
+
+.funcao span {
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.funcao img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 13%;
+    height: 40px;
+}
+
+.jif_men {
+    position: absolute;
+    margin-left: 5%;
+    width: 250px;
+}
+
+.ico_usr {
+    border: solid medium grey;
+    border-radius: 100%;
+    padding: 10px;
+    float: left;
+    width: 11%;
+}
+
+.inf_conta {
+    float: left;
+    width: 75%;
+}
+
+.inf_conta span{
+    font-size: 15px;
+}
+
+.inf {
+    /* margin-top: 100px; */
+    padding: 10px;
+    border: solid thin lightgrey;
+}
+
+.acc_lef {
+    width: 20%;
+    /* text-align: center; */
+    margin-right: 5%;
+    float: left;
+
+}
+
+.ico_usr {
+    width: 100%;
+}
+
+.documentos {
+    text-align: center;
+}
+
+.documentos img {
+    width: 25%;
+    height: 300px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.ico_exp {
+    width: 20px;
+}
+
+/* chevron-right
+chevron-down */
+
+/* #edt img {
+    margin: 50% 0px 0px 0px;
+} */
+/* .alt_dados img {
+    margin-top: 20px;
+    margin-left: 5%;
+    width: 50px;
+} */
+
+.alt_dados a {
+    color: #127547;
+    /* position: absolute; */
+    margin-top: 10px;
+}
+
+.lista_professor li:nth-child(even) {background: #FFF}
+.lista_professor li:nth-child(odd) {background: #EEE}
+
+.lista_professor li {
+    padding: 10px;
+    width: 95%;
+    height: 75px;
+    list-style-type: none;
+}
+
+.btn_avaliar {
+    margin-top: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    float: right;
+    margin-right: 20px;
+    padding: 10px;
+    border: solid medium #127547;
+    border-radius: 10px;
+    color:  #127547;
+}
+
+.content {
+    padding-top: 2%;
+    padding-left: 6%;
+    padding-right: 6%;
+    padding-bottom: 2%;
+    /* background-color: red; */
+    transition: 0.5s;
+}
+
+[class*="col-"] {
+    float: left;
+    height: auto;
+    /* padding: 15px; */
+    font-size: 150%;
+    /* background-color: red; */
+    /* border: 1px solid red; */
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {display: none;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 100%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+/* Bootstrap para barra de senha */
+
+.progress{height:20px;margin-bottom:20px;overflow:hidden;background-color:#f5f5f5;border-radius:4px;-webkit-box-shadow:inset 0 1px 2px rgba(0,0,0,0.1);box-shadow:inset 0 1px 2px rgba(0,0,0,0.1)}.progress-bar{float:left;width:0;height:100%;font-size:12px;color:#fff;text-align:center;background-color:#428bca;-webkit-box-shadow:inset 0 -1px 0 rgba(0,0,0,0.15);box-shadow:inset 0 -1px 0 rgba(0,0,0,0.15);-webkit-transition:width .6s ease;transition:width .6s ease}.progress-striped .progress-bar{background-image:-webkit-gradient(linear,0 100%,100% 0,color-stop(0.25,rgba(255,255,255,0.15)),color-stop(0.25,transparent),color-stop(0.5,transparent),color-stop(0.5,rgba(255,255,255,0.15)),color-stop(0.75,rgba(255,255,255,0.15)),color-stop(0.75,transparent),to(transparent));background-image:-webkit-linear-gradient(45deg,rgba(255,255,255,0.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,0.15) 50%,rgba(255,255,255,0.15) 75%,transparent 75%,transparent);background-image:-moz-linear-gradient(45deg,rgba(255,255,255,0.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,0.15) 50%,rgba(255,255,255,0.15) 75%,transparent 75%,transparent);background-image:linear-gradient(45deg,rgba(255,255,255,0.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,0.15) 50%,rgba(255,255,255,0.15) 75%,transparent 75%,transparent);background-size:40px 40px}.progress.active .progress-bar{-webkit-animation:progress-bar-stripes 2s linear infinite;-moz-animation:progress-bar-stripes 2s linear infinite;-ms-animation:progress-bar-stripes 2s linear infinite;-o-animation:progress-bar-stripes 2s linear infinite;animation:progress-bar-stripes 2s linear infinite}.progress-bar-success{background-color:#5cb85c}.progress-striped .progress-bar-success{background-image:-webkit-gradient(linear,0 100%,100% 0,color-stop(0.25,rgba(255,255,255,0.15)),color-stop(0.25,transparent),color-stop(0.5,transparent),color-stop(0.5,rgba(255,255,255,0.15)),color-stop(0.75,rgba(255,255,255,0.15)),color-stop(0.75,transparent),to(transparent));background-image:-webkit-linear-gradient(45deg,rgba(255,255,255,0.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,0.15) 50%,rgba(255,255,255,0.15) 75%,transparent 75%,transparent);background-image:-moz-linear-gradient(45deg,rgba(255,255,255,0.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,0.15) 50%,rgba(255,255,255,0.15) 75%,transparent 75%,transparent);background-image:linear-gradient(45deg,rgba(255,255,255,0.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,0.15) 50%,rgba(255,255,255,0.15) 75%,transparent 75%,transparent)}.progress-bar-info{background-color:#5bc0de}.progress-striped .progress-bar-info{background-image:-webkit-gradient(linear,0 100%,100% 0,color-stop(0.25,rgba(255,255,255,0.15)),color-stop(0.25,transparent),color-stop(0.5,transparent),color-stop(0.5,rgba(255,255,255,0.15)),color-stop(0.75,rgba(255,255,255,0.15)),color-stop(0.75,transparent),to(transparent));background-image:-webkit-linear-gradient(45deg,rgba(255,255,255,0.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,0.15) 50%,rgba(255,255,255,0.15) 75%,transparent 75%,transparent);background-image:-moz-linear-gradient(45deg,rgba(255,255,255,0.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,0.15) 50%,rgba(255,255,255,0.15) 75%,transparent 75%,transparent);background-image:linear-gradient(45deg,rgba(255,255,255,0.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,0.15) 50%,rgba(255,255,255,0.15) 75%,transparent 75%,transparent)}.progress-bar-warning{background-color:#f0ad4e}.progress-striped .progress-bar-warning{background-image:-webkit-gradient(linear,0 100%,100% 0,color-stop(0.25,rgba(255,255,255,0.15)),color-stop(0.25,transparent),color-stop(0.5,transparent),color-stop(0.5,rgba(255,255,255,0.15)),color-stop(0.75,rgba(255,255,255,0.15)),color-stop(0.75,transparent),to(transparent));background-image:-webkit-linear-gradient(45deg,rgba(255,255,255,0.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,0.15) 50%,rgba(255,255,255,0.15) 75%,transparent 75%,transparent);background-image:-moz-linear-gradient(45deg,rgba(255,255,255,0.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,0.15) 50%,rgba(255,255,255,0.15) 75%,transparent 75%,transparent);background-image:linear-gradient(45deg,rgba(255,255,255,0.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,0.15) 50%,rgba(255,255,255,0.15) 75%,transparent 75%,transparent)}.progress-bar-danger{background-color:#d9534f}.progress-striped .progress-bar-danger{background-image:-webkit-gradient(linear,0 100%,100% 0,color-stop(0.25,rgba(255,255,255,0.15)),color-stop(0.25,transparent),color-stop(0.5,transparent),color-stop(0.5,rgba(255,255,255,0.15)),color-stop(0.75,rgba(255,255,255,0.15)),color-stop(0.75,transparent),to(transparent));background-image:-webkit-linear-gradient(45deg,rgba(255,255,255,0.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,0.15) 50%,rgba(255,255,255,0.15) 75%,transparent 75%,transparent);background-image:-moz-linear-gradient(45deg,rgba(255,255,255,0.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,0.15) 50%,rgba(255,255,255,0.15) 75%,transparent 75%,transparent);background-image:linear-gradient(45deg,rgba(255,255,255,0.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,0.15) 50%,rgba(255,255,255,0.15) 75%,transparent 75%,transparent)}
+
+/* Fim bootstrap para barra de senha */

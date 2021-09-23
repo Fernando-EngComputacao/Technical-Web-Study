@@ -1,0 +1,19 @@
+Nessa pasta irão os documentos do projeto:
+Os seguinte templates preenchidos devem ser adicionados a essa pasta:
+* Termo de Abertura, 
+* Processo de Desenvolvimento de Software,
+* Glossário do Projeto,
+* PGP, 
+* Projeto Arquitetural, 
+* Plano de Gerencial de Configuração, 
+* Relatorio de Release, 
+* Especeficaçoes Sumplementares, 
+* Plano de Comunicação, 
+* Avaliação de Clientes,
+* Plano de Treinamento,
+* Avaliação Reação, 
+* CheckList, 
+* Encerramento, 
+* Relatório de Avaliação do projeto,
+* Diagnostico Redesenho de Processos, 
+
